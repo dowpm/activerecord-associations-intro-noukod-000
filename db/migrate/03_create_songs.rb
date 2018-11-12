@@ -5,4 +5,5 @@ class CreateSongs < ActiveRecord::Migration[5.1]
       t.integer :artist_id
       t.integer :genre_id
     end
+  end
 end
